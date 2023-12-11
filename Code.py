@@ -76,7 +76,7 @@ def export_results(trimmed_primers, output_file):
 
 def main():
     # Assuming the CSV file is in the working directory
-    csv_file_path = "A1 trimmed_results.csv"
+    csv_file_path = "FAM trimmed_results.csv"
 
     if not os.path.exists(csv_file_path):
         print(f"Error: The file {csv_file_path} does not exist.")
@@ -116,3 +116,5 @@ def csv_to_fasta(csv_file, fasta_file):
 
 # Replace 'input.csv' and 'output.fasta' with your actual CSV and FASTA file names
 csv_to_fasta('FAM and HEX trimmed_results.csv', 'FAM and HEX trimmed_results.fasta')
+
+
