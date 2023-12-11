@@ -1,3 +1,6 @@
+# To trim the FAM and HEX tags from the primers FAM: GAAGGTGACCAAGTTCATGCT   HEX: GAAGGTCGGAGTCAACGGAT
+
+
 def read_csv(file_path):
     primers = {}
     with open(file_path, 'r') as csv_file:
