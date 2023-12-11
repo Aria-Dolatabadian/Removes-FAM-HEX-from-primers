@@ -40,7 +40,7 @@ def main():
     trimmed_primers = trim_sequence(tag_sequence, primers)
 
     # Export results to a new CSV file in the same directory as the script
-    output_file_path = "A1 trimmed_results.csv"
+    output_file_path = "FAM trimmed_results.csv"
     export_results(trimmed_primers, output_file_path)
 
     print(f"Results exported successfully to {output_file_path}.")
